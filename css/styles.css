@@ -22,9 +22,9 @@ body {
   font-weight: bold;
   text-shadow: 1px 1px 1px #272323;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom:0;
   line-height:.65;
-  font-size: 4vw; 
+  font-size: 4vw;
 }
 #button{
    margin-bottom: 15px;
@@ -96,6 +96,9 @@ p1{
     padding-top: 15px;
     font-size: 4vw; /* 1vw = 1% of viewport width */
   }
+  #header-nav {
+    min-height: 95px;
+  }
 }
 
 /********** Medium devices only **********/
@@ -103,6 +106,9 @@ p1{
       .navbar-brand h1 { 
     padding-top: 15px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+   #header-nav {
+    min-height: 95px;
   }
 
 }
@@ -113,6 +119,9 @@ p1{
     .navbar-brand h1 { 
     padding-top: 15px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+   #header-nav {
+    min-height: 85px;
   }
 
 }
@@ -134,6 +143,12 @@ p1{
     font-size: 1em;
     margin-right: 5px;
   }
+  #nav-list .s1{
+  padding-right: 28px;
+}
+#nav-list .s2{
+  padding-left: 45.50px;
+}
 
   /* End Header */
 
@@ -144,4 +159,10 @@ p1{
     font-size: 6vw;
    
   }
+  #nav-list .s1{
+  padding-right: 28px;
+}
+#nav-list .s2{
+  padding-left: 45.50px;
+}
 }
